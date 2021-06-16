@@ -1,7 +1,7 @@
-rule{
+rule pointless{
     meta:
             author: "ewi"
-            description : "pointless"
+            description : "pointless rule"
     strings:
         $s1 = "pointless" nocase
         $s2 = "not useful" nocase
