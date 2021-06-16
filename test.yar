@@ -1,7 +1,7 @@
-rule{
+rule adelus {
     meta:
             author: "ewi"
-            description : "nothing"
+            description : "I was wondering"
     strings:
         $s1 = "hello" nocase
         $s2 = "it's me" nocase
