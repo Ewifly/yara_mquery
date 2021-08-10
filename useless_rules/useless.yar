@@ -1,10 +1,11 @@
 rule pointless : useless {
     meta:
         author = "ewi"
-        description = "pointless rule"
+        description = "pointless rule that matches pointless things"
     strings:
         $s1 = "pointless" nocase
         $s2 = "not useful" nocase
+        $s3 = "boooooring" nocase
     condition:
         any of them
 }
